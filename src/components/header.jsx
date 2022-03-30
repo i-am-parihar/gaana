@@ -1,12 +1,18 @@
 import '../App.css';
+import { BiUserCircle } from 'react-icons/bi';
 
 export const Header = () => {
+   
+  var sidebar = document.querySelector(".sidebar") ;
+  function close() {
+    sidebar.classList.toggle("small-sidebar") ;
+  }
 
     return(
-        // <div>
+      <div>
         <nav className="header flex-div">
             <div className="nav-left flex-div">
-                <img src="https://cdn0.iconfinder.com/data/icons/heroicons-ui/24/icon-menu-512.png" className="menuIcon"/>
+                <img src="https://cdn0.iconfinder.com/data/icons/heroicons-ui/24/icon-menu-512.png" className="menuIcon" onClick={close}/>
                 <img src="https://dog55574plkkx.cloudfront.net/storelogo/web/gaana.png" className="gaanaIcon"/>
             </div>
 
@@ -27,9 +33,28 @@ export const Header = () => {
               <p className='logIn'>Log/Sign Up</p>
             </div>         
         </nav>
+      
+              
+        <div className="sidebar">
+           <div className="shortcut-links">
+               <div className='flex-div'>
+               <div className='loginIcon'><BiUserCircle size={30}/></div>
+               <p>Login / Sign Up</p>
+               </div>
+               <p>Home</p>
+               <p>Radio</p>
+               <p>Podcast</p>
+               <p>My Music</p>
+               <p>India's Music</p>
+               <hr/>
+               <p>Go Premium</p>
+               <p>Go Ad-Free</p>
+               <p>Get Gaana Plus</p>
 
+          </div>
+       </div>
            
-// </div>
+     </div>
 
     )
 }
