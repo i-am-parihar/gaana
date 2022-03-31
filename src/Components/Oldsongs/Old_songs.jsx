@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux"
 import { useSelector } from "react-redux"
 import { Link } from "react-router-dom"
 
-export const Trending=()=>{
+export const Old_songs=()=>{
 const dispatch=useDispatch()    
 // const [data,setData]=useState([])
 
@@ -30,12 +30,12 @@ const data=useSelector(store=>store.songs)
                    <div className="tending_single">
                          <div className="img_div">
                                <div>
-                                   <Link to={`/trending/${elem.id}`}>
+                                   <Link to={`/old/${elem.id}`}>
                                    <img className="mainimg" src={elem.cover_image}/>
                                    </Link>
                                </div>
                                 <div>
-                                      <Link to={`/trending/${elem.id}`}>
+                                      <Link to={`/old/${elem.id}`}>
                                        <p className="mainhead">{elem.song}</p> 
                                       </Link>
                                   </div>

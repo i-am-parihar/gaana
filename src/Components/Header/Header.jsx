@@ -9,7 +9,7 @@ export const Header = () => {
   const showSidebar = () => setSidebar(!sidebar) ;
   
     return(
-      <div>
+      <div className='Main_Header'>
               {/* Main Header */}
         <div className="header flex-div">   
             <div className="nav-left flex-div">
