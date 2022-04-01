@@ -10,6 +10,7 @@ var data=useSelector(store=>store.songs)
  var arr=data.filter((elem)=>{return elem.type=="album"})
     return(
         <div>
+          <h3 className="pageheading">Albums</h3>
             <div className="new_Container">
                    {arr.map((elem)=>{
                    return(

@@ -1,19 +1,25 @@
 .move{
     width: 80%;
     height: 250px;
-margin-top: 20px;
   margin-left: 6%;
-  margin-top: 50px;
-
+}
+#movee{
+    margin-top: 30px;
 }
 .sliderimg{
-    width: 200px;
-    height: 180px;
+    width: 180px;
+    height: 160px;
     border-radius: 5px;
 }
 .trending_headding{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 10px;
+}
+.rsliderimg{
+    border-radius: 50%;
+}
+#lmove{
+    margin-top: 30px;
 }
 

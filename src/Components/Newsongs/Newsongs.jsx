@@ -11,8 +11,9 @@ var data=useSelector(store=>store.songs)
     
     return(
         <div>
-
+             <h3 className="pageheading">New Songs</h3>
             <div className="new_Container">
+           
                    {arr.map((elem)=>{
                    return(
                              <>

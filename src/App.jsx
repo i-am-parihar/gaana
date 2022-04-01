@@ -12,6 +12,7 @@ import { Newsongs } from './Components/Newsongs/Newsongs';
 import { Newsongsaudio } from './Components/Newsongs/Newsongsaudio';
 import { Albumsongs } from './Components/Album/Album';
 import { Albumsongsaudio } from './Components/Album/Albumaudio';
+import { Movable } from './Components/Movable/Movable';
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <div className="App">
     <Header/>
     <Navbar/>
+    <Movable/>
     <Routes>
        <Route path='/' element={<Home/>}/> 
       <Route path='/Trending' element={ <Trending/>} />

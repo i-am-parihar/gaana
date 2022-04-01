@@ -1,0 +1,15 @@
+.Movable_container{
+    width: 79%;
+    height: 200px;
+    margin-left: 6%;
+    margin-top: 30px;
+}
+.mavable_img_container{
+    width: 00px;
+    height: 200px;
+}
+.mavable_img_container>img{
+    width: 260px;
+    height: 200px;
+    border-radius: 5px;
+}
