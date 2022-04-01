@@ -61,18 +61,20 @@
 
   .audio_container{
     width: 90%;
-     border: 1px solid black; 
+     border: 2px solid red; 
     height: 390px;
     margin: auto;
     margin-top: 25px;
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+    background-color: whitesmoke;
    }
    .audio_container1{
     width: 70%;
     /* border: 1px solid red; */
     display: flex;
-    background-color: whitesmoke;
+   
     color: white;
   }
   .audio_container11{
@@ -80,8 +82,10 @@
     /* border: 1px solid red; */
   }
   .main_image{
-    width: 95%;
+    width: 90%;
     height: 100%;
+    border-radius: 20px;
+  
   }
  
   .audio_container12>p{
@@ -127,7 +131,8 @@
   }
   .audio_container211>img{
     width:130px;
-  height: 60px;
+    height: 60px;
+    border-radius: 3px;
   }
   .audio_container212{
     width: 60%;

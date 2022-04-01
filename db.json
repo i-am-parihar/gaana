@@ -15,6 +15,7 @@
        "cover_image":"http://hck.re/3Cm0IX",
        "duration":"7:08",
        "type":"Trending"
+       
     },
     {  "id":3,
        "song":"Tajdar e haram",
@@ -399,6 +400,38 @@
  "cover_image":"http://hck.re/gs0grk",
  "duration":"6:30",
  "type":"album"
-}
+},
+{  "id":52,
+   "song":"Shamaan Pai gaiyan",
+   "url":"http://hck.re/VhtQGh",
+   "artists":"Rachel Viccaji, Kashif Ali",
+   "cover_image":"http://hck.re/gs0grk",
+   "duration":"6:30",
+   "type":"old"
+ },
+ {  "id":53,
+  "song":"Dinae Dinae",
+  "url":"http://hck.re/dMquYY",
+  "artists":"Harshadeep Kaur",
+  "cover_image":"http://hck.re/6l9QqH",
+  "duration":"6:39",
+  "type":"old"
+ },
+ {  "id":54,
+  "song":"Tera woh pyar",
+  "url":"http://hck.re/64Tzod",
+  "artists":"Momina Mustehsan, Asim Azhar",
+  "cover_image":"http://hck.re/rlYqJY",
+  "duration":"7:04",
+  "type":"old"
+ },
+ {  "id":55,
+  "song":"Shamaan Pai gaiyan",
+  "url":"http://hck.re/VhtQGh",
+  "artists":"Rachel Viccaji, Kashif Ali",
+  "cover_image":"http://hck.re/gs0grk",
+  "duration":"6:30",
+  "type":"old"
+ }
  ]
 }
