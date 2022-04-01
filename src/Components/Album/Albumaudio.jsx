@@ -4,18 +4,21 @@ import { useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom"
 
 
-export const Newsongsaudio=()=>{
+export const Albumsongsaudio=()=>{
     const [songdata,setSongdata]=useState([]);
     const {id}=useParams();
     const data=useSelector(store=>store.songs)
-    var arr=data.filter((elem)=>{return elem.type=="new"})
+    var arr=data.filter((elem)=>{return elem.type=="album"})
 
     const playarr=data.filter((elem)=>{
         return elem.id==id
     })
+    
     useEffect(()=>{
-       display(id)
+        display(id)
     },[])
+      
+    
   
     function display(x){
            const playarr=data.filter((elem)=>{
