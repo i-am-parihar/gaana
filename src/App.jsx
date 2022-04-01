@@ -8,6 +8,7 @@ import { Trending } from './Components/Trending/Trending-songs';
 import {Trendingaudio} from './Components/Trending/Trendingaudio'
 import { Oldsongs } from './Components/Oldsongs/Oldsongs';
 import { Oldaudio } from './Components/Oldsongs/Old_audio';
+import { Newsongs } from './Components/Newsongs/Newsongs';
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route path='/trending/:id' element={<Trendingaudio/>}/>
       <Route path='/old' element={ <Oldsongs/>} />
       <Route path='/old/:id' element={<Oldaudio/>}/>
+      <Route path='/new' element={<Newsongs/>}/>
     </Routes>
     </div>
   );
