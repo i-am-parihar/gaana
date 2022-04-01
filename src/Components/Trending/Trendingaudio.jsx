@@ -4,7 +4,8 @@ import { useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom"
 
 
-export const Audio=()=>{
+
+export const Trendingaudio=()=>{
     const [songdata,setSongdata]=useState([]);
     const {id}=useParams();
     const data=useSelector(store=>store.songs)

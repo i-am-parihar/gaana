@@ -1,18 +1,13 @@
 import { type } from "@testing-library/user-event/dist/type"
 import { useEffect, useState } from "react"
-import { useDispatch } from "react-redux"
 import { useSelector } from "react-redux"
 import { Link } from "react-router-dom"
 
-export const Old_songs=()=>{
-const dispatch=useDispatch()    
-// const [data,setData]=useState([])
-
-useEffect(()=>{
-    fetch("http://localhost:3000/songs").then(Response=>Response.json()).then(data=>dispatch({type:"songs",payload:data}))
-},[])
-
-const data=useSelector(store=>store.songs)
+export const Oldsongs=()=>{
+   
+var data=useSelector(store=>store.songs)  
+ var arr=data.filter((elem)=>{return elem.type=="old"})
+     console.log("data",data)
     return(
         <div>
            
@@ -24,7 +19,7 @@ const data=useSelector(store=>store.songs)
            
             <div className="trending_Container">
             <hr/>
-            {data.map((elem)=>{
+            {arr.map((elem)=>{
                 return(
                    <>
                    <div className="tending_single">

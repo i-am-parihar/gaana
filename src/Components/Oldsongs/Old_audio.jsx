@@ -4,10 +4,11 @@ import { useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom"
 
 
-export const old_audio=()=>{
+export const Oldaudio=()=>{
     const [songdata,setSongdata]=useState([]);
     const {id}=useParams();
     const data=useSelector(store=>store.songs)
+    var arr=data.filter((elem)=>{return elem.type=="old"})
 
     const playarr=data.filter((elem)=>{
         return elem.id==id
@@ -44,7 +45,7 @@ export const old_audio=()=>{
            </div>
               
                 <div className="audio_container2">
-               {data.map((elem)=>{
+               {arr.map((elem)=>{
                return(
                    <div className="audio_container21">
                          <div className="audio_container211"><img onClick={()=>{display(elem.id)}} className="audio_container2_img" src={elem.cover_image}/></div> 
