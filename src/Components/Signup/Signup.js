@@ -11,7 +11,7 @@ export const Signup = () => {
        </div>
      
      <h2>Login/Signup</h2>  
-     <p1>Get a personalized experience, and access all <br/> your music</p1>
+     <p1>Get a personalized experience, and access all <br/> <p>your music</p>  </p1>
     
      <form id="field">
 
@@ -41,7 +41,7 @@ export const Signup = () => {
         <div className='text'>
         <span className="text-1">Over 30 million songs to suit<br/> every mood & occasion</span> 
         </div>
-        <img height="500px" width="400px" src="https://a10.gaanacdn.com/gn_img/images/login_bg_v1_1621430866.jpg" alt=''/>
+        <img height="500px" width="413px" src="https://a10.gaanacdn.com/gn_img/images/login_bg_v1_1621430866.jpg" alt=''/>
      
         </div>
       

@@ -10,16 +10,22 @@
 }
  .imgganna{
    margin-top: 17%;
+   margin-left: 27%;
  } 
 
-h2{
+ h2{
     margin-top: 7%;
+    margin-left: 27%;
+
 }
-p1{
+.left>p1{
     color: rgb(163,163,167);
     font-size: 12px;
     text-decoration: solid;
     font-weight: 500;
+    margin-left: 20%;
+    text-align: center;
+    align-items: center;
     
 }
 #field > input {
@@ -29,7 +35,7 @@ p1{
     border: none;
     padding: 0 5 px;
     background: none;
-    margin-right: 20px;
+    margin-left: 40px;
     outline: none;
     border-bottom: 1px solid  rgb(204,204,204);
 }
@@ -108,12 +114,14 @@ p1{
   /* margin-bottom: -100PX; */
 }
 .right{
-    width:400px;
+    width:440px;
  
     /* border: 1px solid red; */
  
 }
 .left{
     /* border: 1px solid blue; */
-    width:400px;
+    width:490px;
+  
+     
 }
