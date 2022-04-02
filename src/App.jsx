@@ -13,6 +13,7 @@ import { Newsongsaudio } from './Components/Newsongs/Newsongsaudio';
 import { Albumsongs } from './Components/Album/Album';
 import { Albumsongsaudio } from './Components/Album/Albumaudio';
 import { Radio } from './Components/Radio/Radio';
+import { Podcast } from './Components/Podcast/Podcast';
 
 
 
@@ -34,6 +35,7 @@ function App() {
       <Route path='/album' element={<Albumsongs/>}/>
       <Route path='/album/:id' element={<Albumsongsaudio/>}/>
       <Route path="/radio" element={<Radio/>}/>
+      <Route path='/podcast' element={<Podcast/>}/>
     </Routes>
     </div>
   );
