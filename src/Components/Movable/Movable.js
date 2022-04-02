@@ -7,7 +7,7 @@ import './Movable.css'
 
 export const Movable=()=>{
     const settings = {
-        slidesToSho: 2,
+        
         slidesToShow: 3,
         slidesToScrol: 1,
         autoplay: true,

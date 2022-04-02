@@ -10,6 +10,8 @@ var data=useSelector(store=>store.songs)
      console.log("data",data)
     return(
         <div>
+                <div className="img_container"><img src="https://cdn.bdc-tv.com/wp-content/uploads/2020/08/p3.jpg"  /></div>
+
            
             <div className="trending_headers">
                 <div className="track">Track</div>

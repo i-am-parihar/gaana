@@ -1,3 +1,13 @@
+.img_container{
+  margin-left: 6%;
+  margin-top: 16px;
+  width: 75%;
+  
+}
+.img_container>img{
+  border-radius: 10px;
+  width: 100%;
+}
 .trending_headers{
     width: 75%;
     height: 40px;

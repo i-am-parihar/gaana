@@ -12,7 +12,8 @@ import { Newsongs } from './Components/Newsongs/Newsongs';
 import { Newsongsaudio } from './Components/Newsongs/Newsongsaudio';
 import { Albumsongs } from './Components/Album/Album';
 import { Albumsongsaudio } from './Components/Album/Albumaudio';
-import { Movable } from './Components/Movable/Movable';
+import { Radio } from './Components/Radio/Radio';
+
 
 
 
@@ -21,7 +22,7 @@ function App() {
     <div className="App">
     <Header/>
     <Navbar/>
-    <Movable/>
+   
     <Routes>
        <Route path='/' element={<Home/>}/> 
       <Route path='/Trending' element={ <Trending/>} />
@@ -32,6 +33,7 @@ function App() {
       <Route path='/new/:id' element={<Newsongsaudio/>}/>
       <Route path='/album' element={<Albumsongs/>}/>
       <Route path='/album/:id' element={<Albumsongsaudio/>}/>
+      <Route path="/radio" element={<Radio/>}/>
     </Routes>
     </div>
   );

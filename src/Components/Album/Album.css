@@ -1,3 +1,18 @@
+.img_container{
+    margin-left: 6%;
+    margin-top: 16px;
+    width: 75%;
+    
+  }
+  .im_container>img{
+    border-radius: 10px;
+    width: 82%;
+    height: 270px;
+    margin-top: 20px;
+  }
+  .maindivimg{
+      margin-left: 6%;
+  }
 .new_Container{
     width: 80%;
    margin-left: 6%;
@@ -14,9 +29,9 @@
  
  }
  .newhead{
-     margin-top: -6px;
+     margin-top: -5px;
      font-size: 13px;
-     font-weight: bold;
+   
  }
  .pageheading{
     margin-left: 6%;

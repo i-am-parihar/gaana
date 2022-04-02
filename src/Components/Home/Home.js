@@ -8,6 +8,7 @@ import "./Home.css"
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import { Movable } from "../Movable/Movable";
 
 
 
@@ -58,7 +59,9 @@ function SampleNextArrow(props) {
 return (
    <div className="slider_continer">
       
-   
+    <div>
+      <Movable/>
+    </div>
 
     <div className="move" id="movee">
      <div className="trending_headding">Trending Songs</div>
