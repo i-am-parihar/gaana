@@ -8,8 +8,7 @@ import {Header} from './Components/Header/Header'
 import './Components/Header/Header.css'
 import { Navbar } from './Components/Navbar/Navbar';
 import { Home } from './Components/Home/Home';
-import {Old_songs} from "./Components/Oldsongs/Old_songs"
-import {old_audio} from "./Components/Oldsongs/Old_audio"
+import {Signup} from "./Components/Signup/Signup.js"
 
 function App() {
   return (
@@ -20,8 +19,8 @@ function App() {
        <Route path='/' element={<Home/>}/> 
       <Route path='/Trending' element={ <Trending/>} />
       <Route path='/trending/:id' element={<Audio/>}/>
-      <Route path='/old' element={<Old_songs/>}/>
-      <Route path='/old/:id' element={<old_audio/>}/>
+      <Route path='/Signup' element={<Signup/>}/>
+    
     </Routes>
         
     </div>
